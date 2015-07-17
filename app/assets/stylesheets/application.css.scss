@@ -15,3 +15,24 @@
  *= require foundation_and_overrides
 
  */
+@import "foundation_and_overrides.scss";
+
+.centered{
+  width:auto;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+}
+.jumbotron{
+  padding:5rem;
+  background:rgba(200,200,200,1);
+}
+.padder-top-small{
+  padder-top:1rem;
+}
+.padder-top-medium{
+  padder-top:5rem;
+}
+.padder-top-large{
+  padder-top:5rem;
+}

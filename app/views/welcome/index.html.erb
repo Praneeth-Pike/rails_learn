@@ -1,9 +1,30 @@
-<div class="container">
-  <div class="row">
-    <h1>This is a welcome page!</h1>
+<div class="container jumbotron">
+  <div class="row centered">
+    <h1>Welcome to My Recipes App</h1>
+    <p>This is the Homepage for my Recipes app</p>
+    
   </div>
   <div class="row">
-    <%=link_to 'login', "welcome#login" %>
-    <%=link_to 'signup', "welcome#signup" %>
+    <%=link_to 'signup', "welcome#signup", class: "button radius centered expand success" %>
+    <%=link_to 'login', "welcome#signup", class: "button radius centered expand" %>
+  </div>
+</div>
+<div class="container paddder-top-medium">
+  <div class="medium-4 columns">
+    <h2>View recipes as a guest</h2>
+    <p>Browse through all the recipes as a guest</p>
+    <%= link_to 'Guest Login', '', class: "button expand  radius" %>
+  </div>
+  <div class="medium-4 columns">
+      <h2>View recipes as a guest</h2>
+    <p>Browse through all the recipes as a guest</p>
+    <%= link_to 'Guest Login', '', class: "button expand  radius" %>
+    
+  </div>
+  <div class="medium-4 columns">
+      <h2>View recipes as a guest</h2>
+    <p>Browse through all the recipes as a guest</p>
+    <%= link_to 'Guest Login', '', class: "button expand  radius" %>
+    
   </div>
 </div>

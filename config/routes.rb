@@ -54,7 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root "welcome#index"
-  get "login" => "welcome#login"
-  get "signup" => "welcome#signup"
+#  get "welcome#login" => render(login)
+  get "welcome/signup"
   
 end
